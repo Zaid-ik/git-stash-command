@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        body {
+            background: #111827;
+            color: white;
+            text-align: center;
+            font-family: Arial;
+            padding: 50px;
+        }
+
+        button {
+            background: #6366f1;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Website!</h1>
+    <p id="text">Click the button below.</p>
+
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+        function changeText() {
+            document.getElementById("text").innerHTML =
+                "Hello! JavaScript is working 🚀";
+        }
+    </script>
+
+</body>
+</html>
